@@ -1,7 +1,3 @@
-{% if cookiecutter.devops_organisation != '' %}
-[![Build Status](https://dev.azure.com/{{cookiecutter.devops_organisation}}/{{cookiecutter.repo_name}}/_apis/build/status/equinor.{{cookiecutter.repo_name}}?branchName=master)](https://dev.azure.com/{{cookiecutter.devops_organisation}}/{{cookiecutter.repo_name}}/_build/latest?definitionId=1&branchName=master)
-{% endif %}
-
 # {{cookiecutter.project_name}}
 
 {{cookiecutter.project_description}}
@@ -162,13 +158,7 @@ To contribute an update simply:
 * Edit this document if needed to describe new files or other important information.
 * Create a pull request.
 
-## Important Links
-* https://wiki.equinor.com/wiki/index.php/Statoil_Data_Science_Technical_Standards - Data Science Technical Standards (Equinor Internal)
-* https://dataplatformwiki.azurewebsites.net/doku.php - Data Platform wiki (Equinor internal)
-* https://github.com/equinor/data-science-shared - Shared Data Science Code Repository (Equinor internal)
-
 ## References
-* https://github.com/equinor/data-science-template/ - The master template for this project
 * http://docs.python-guide.org/en/latest/writing/structure/
 * https://github.com/Azure/Microsoft-TDSP
 * https://drivendata.github.io/cookiecutter-data-science/

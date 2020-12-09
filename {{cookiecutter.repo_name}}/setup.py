@@ -34,7 +34,7 @@ test_requirements = [
 
 setup(
     author='{{cookiecutter.author}}',
-    author_email="Name@equinor.com",
+    author_email="Name@microsoft.com",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
